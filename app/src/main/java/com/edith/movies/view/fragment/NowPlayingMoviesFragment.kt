@@ -43,7 +43,7 @@ class NowPlayingMoviesFragment : Fragment() {
 
     private fun renderList(list : List<Movie>){
         val nowPlayingAdapter = NowPlayingAdapter((NowPlayingAdapter.OnClickListener {
-            Toast.makeText(context, "hola", Toast.LENGTH_SHORT).show() })
+            Toast.makeText(context, "", Toast.LENGTH_SHORT).show() })
         )
         nowPlayingAdapter.submitList(list)
 

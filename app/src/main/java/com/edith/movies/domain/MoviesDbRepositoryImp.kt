@@ -1,13 +1,13 @@
 package com.edith.movies.domain
 
-import com.edith.movies.local.dao.GenderDao
-import com.edith.movies.local.dao.MoviesDao
-import com.edith.movies.local.model.MovieEntity
-import com.edith.movies.remote.model.GenderResponse
-import com.edith.movies.remote.model.LastMoviesResponse
-import com.edith.movies.remote.model.MovieDb
-import com.edith.movies.remote.model.MovieModel
-import com.edith.movies.remote.service.ApiService
+import com.edith.local.dao.GenderDao
+import com.edith.local.dao.MoviesDao
+import com.edith.local.model.MovieEntity
+import com.edith.remote.model.GenderResponse
+import com.edith.remote.model.LastMoviesResponse
+import com.edith.remote.model.MovieDb
+import com.edith.remote.model.MovieModel
+import com.edith.remote.service.ApiService
 import com.edith.movies.uimodel.Movie
 import com.edith.movies.uimodel.toDomain
 import dagger.hilt.android.scopes.ViewModelScoped

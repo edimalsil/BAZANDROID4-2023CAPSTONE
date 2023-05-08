@@ -1,7 +1,7 @@
 package com.edith.movies.uimodel
 
-import com.edith.movies.local.model.MovieEntity
-import com.edith.movies.remote.model.MovieModel
+import com.edith.local.model.MovieEntity
+import com.edith.remote.model.MovieModel
 
 data class Movie(
     val id: Int,
@@ -14,3 +14,9 @@ data class Movie(
 fun MovieModel.toDomain() = Movie(id, backdrop_path, original_title, poster_path, title)
 
 fun MovieEntity.toDomain() = Movie(id, backdrop_path, original_title, poster_path, title)
+
+
+fun Movie.toDatabase() = MovieEntity(
+    id = id, backdrop_path = backdrop_path, original_title = original_title,
+    poster_path = poster_path, title = title
+)

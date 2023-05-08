@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import com.edith.movies.remote.model.MovieDb
 import com.edith.movies.databinding.FragmentLastMoviesBinding
 import com.edith.movies.view.adapter.MoviesAdapter
 import com.edith.movies.view.viewmodel.MoviesViewModel
+import com.edith.remote.model.MovieDb
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

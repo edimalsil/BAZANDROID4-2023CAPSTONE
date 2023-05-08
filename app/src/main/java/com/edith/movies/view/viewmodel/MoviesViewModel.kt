@@ -4,12 +4,12 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.edith.movies.remote.model.LastMoviesResponse
-import com.edith.movies.remote.model.MovieDb
-import com.edith.movies.remote.model.MovieModel
+import com.edith.remote.model.LastMoviesResponse
+import com.edith.remote.model.MovieDb
+import com.edith.remote.model.MovieModel
 import com.edith.movies.domain.GetMoviesUseCase
 import com.edith.movies.domain.MoviesDbRepository
-import com.edith.movies.local.model.MovieEntity
+import com.edith.local.model.MovieEntity
 import com.edith.movies.uimodel.Movie
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
