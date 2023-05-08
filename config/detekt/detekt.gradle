@@ -1,0 +1,21 @@
+apply plugin: "io.gitlab.arturbosch.detekt"
+
+dependencies {
+    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.22.0")
+}
+
+detekt {
+    buildUponDefaultConfig = false // preconfigure defaults
+    allRules = false // activate all available (even unstable) rules.
+    config = files("$rootDir/config/detekt/detekt.yml") // point to your custom config defining rules to run, overwriting default behavior
+    baseline = file("config/detekt/baseline.xml") // a way of suppressing issues before introducing detekt
+}
+
+tasks.named("detekt").configure {
+    reports {
+        xml.required.set(true)
+        xml.outputLocation.set(file("build/reports/detekt.xml"))
+        html.required.set(true)
+        html.outputLocation.set(file("build/reports/detekt.html"))
+    }
+}
