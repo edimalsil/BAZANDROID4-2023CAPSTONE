@@ -1,6 +1,6 @@
 package com.edith.remote.model
 
-data class DatesModel(
+data class DatesResponse(
     val maximum: String,
     val minimum: String
 )

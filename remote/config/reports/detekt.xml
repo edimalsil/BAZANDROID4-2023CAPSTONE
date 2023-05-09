@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="4.3">
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/di/AppModule.kt">
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="21" column="1" severity="warning" message="Needless blank line(s)" source="detekt.NoConsecutiveBlankLines" />
+	<error line="35" column="1" severity="warning" message="Needless blank line(s)" source="detekt.NoConsecutiveBlankLines" />
+	<error line="48" column="1" severity="warning" message="Needless blank line(s)" source="detekt.NoConsecutiveBlankLines" />
+	<error line="65" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/di/AppModule.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/DatesResponse.kt">
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="6" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/DatesResponse.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/TopRatedMoviesResponse.kt">
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="6" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="7" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="8" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/TopRatedMoviesResponse.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/MovieResponse.kt">
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="7" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="8" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="10" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="11" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="14" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="15" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="18" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="19" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="20" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/MovieResponse.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/NowPlayingResponse.kt">
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="9" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="10" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="11" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/NowPlayingResponse.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/GenresMoviesResponse.kt">
+	<error line="7" column="1" severity="warning" message="Needless blank line(s)" source="detekt.NoConsecutiveBlankLines" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/LastMoviesResponse.kt">
+	<error line="13" column="33" severity="warning" message="Missing space after //" source="detekt.CommentSpacing" />
+	<error line="14" column="27" severity="warning" message="Missing space after //" source="detekt.CommentSpacing" />
+	<error line="16" column="31" severity="warning" message="Missing space after //" source="detekt.CommentSpacing" />
+	<error line="25" column="24" severity="warning" message="Missing space after //" source="detekt.CommentSpacing" />
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="16" column="30" severity="warning" message="Unnecessary long whitespace" source="detekt.NoMultipleSpaces" />
+	<error line="5" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="6" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="11" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="12" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="13" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="16" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="17" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="18" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="19" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="22" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="27" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="28" column="5" severity="warning" message="Constructor parameter names should match the pattern: [a-z][A-Za-z0-9]*" source="detekt.ConstructorParameterNaming" />
+	<error line="29" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/LastMoviesResponse.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/model/GenderResponse.kt">
+	<error line="8" column="1" severity="warning" message="Needless blank line(s)" source="detekt.NoConsecutiveBlankLines" />
+</file>
+<file name="/Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/service/ApiService.kt">
+	<error line="21" column="1" severity="warning" message="Unexpected blank line(s) before &quot;}&quot;" source="detekt.NoBlankLineBeforeRbrace" />
+	<error line="1" column="1" severity="warning" message="File must end with a newline (\n)" source="detekt.FinalNewline" />
+	<error line="3" column="1" severity="warning" message="Wildcard import" source="detekt.NoWildcardImports" />
+	<error line="22" column="2" severity="warning" message="The file /Users/emaldonadosi/Desktop/Curso2023/copyentregauno/Movies/remote/src/main/java/com/edith/remote/service/ApiService.kt is not ending with a new line." source="detekt.NewLineAtEndOfFile" />
+	<error line="3" column="1" severity="warning" message="com.edith.remote.model.* is a wildcard import. Replace it with fully qualified imports." source="detekt.WildcardImport" />
+</file>
+</checkstyle>

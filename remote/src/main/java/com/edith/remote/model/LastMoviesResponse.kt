@@ -5,7 +5,7 @@ data class LastMoviesResponse(
     val backdrop_path: String,
     val belongs_to_collection: String,
     val budget: Int,
-    val genres: List<GenderModel>,
+    val genres: List<GenderResponse>,
     val homepage: String,
     val id: Int,
     val imdb_id: String,

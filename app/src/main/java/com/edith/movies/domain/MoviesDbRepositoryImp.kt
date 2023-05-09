@@ -5,8 +5,7 @@ import com.edith.local.dao.MoviesDao
 import com.edith.local.model.MovieEntity
 import com.edith.remote.model.GenderResponse
 import com.edith.remote.model.LastMoviesResponse
-import com.edith.remote.model.MovieDb
-import com.edith.remote.model.MovieModel
+import com.edith.remote.model.MovieResponse
 import com.edith.remote.service.ApiService
 import com.edith.movies.uimodel.Movie
 import com.edith.movies.uimodel.toDomain
@@ -52,7 +51,7 @@ class MoviesDbRepositoryImp @Inject constructor(
         moviesDao.deleteAllMovies()
     }
 
-    override suspend fun getlistTopRatedMovies(): List<MovieModel> {
+    override suspend fun getListTopRatedMovies(): List<MovieResponse> {
         val response = apiService.listTopRatedMovies("7175cc36abf3c4b497b768214f16ef0b")
         return if (response.isSuccessful){
             response.body()!!.results
@@ -66,15 +65,6 @@ class MoviesDbRepositoryImp @Inject constructor(
         return if (response.isSuccessful) {
             response.body()
         }else null
-    }
-
-    override suspend fun getAllMovies(): List<MovieDb> {
-        val response = apiService.listPopularMovies("7175cc36abf3c4b497b768214f16ef0b")
-        return if (response.isSuccessful) {
-            response.body()!!.results
-        } else {
-            emptyList()
-        }
     }
 
 }

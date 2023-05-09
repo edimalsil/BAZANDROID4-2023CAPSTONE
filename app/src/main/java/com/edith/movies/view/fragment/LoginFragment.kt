@@ -71,9 +71,9 @@ class LoginFragment : Fragment() {
     private fun showAlert() {
 
         val builder = AlertDialog.Builder(this.requireContext())
-        builder.setTitle("Error")
-        builder.setMessage("Se ha producido un error de autentificación")
-        builder.setPositiveButton("Aceptar", null)
+        builder.setTitle(R.string.alert_title)
+        builder.setMessage(R.string.alert_message)
+        builder.setPositiveButton(R.string.alert_button_accept, null)
         val dialog: AlertDialog = builder.create()
         dialog.show()
     }

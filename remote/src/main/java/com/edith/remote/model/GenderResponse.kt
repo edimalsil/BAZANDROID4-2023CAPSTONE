@@ -1,6 +1,6 @@
 package com.edith.remote.model
 
-data class GenderModel(
+data class GenderResponse(
     val id: Int,
     val name: String
 )

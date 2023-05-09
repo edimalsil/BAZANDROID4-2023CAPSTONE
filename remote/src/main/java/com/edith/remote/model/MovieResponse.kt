@@ -1,12 +1,8 @@
 package com.edith.remote.model
 
-import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
 
-@Parcelize
-data class MovieDb(
-
+data class MovieResponse(
     @SerializedName("adult") val adult: Boolean,
     @SerializedName("backdrop_path") val backdrop_path: String,
     @SerializedName("genre_ids") val genre_ids: List<Int>,
@@ -21,4 +17,4 @@ data class MovieDb(
     @SerializedName("video") val video: Boolean,
     @SerializedName("vote_average") val vote_average: Double,
     @SerializedName("vote_count") val vote_count: Int
-) : Parcelable
+)

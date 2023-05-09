@@ -14,8 +14,8 @@ detekt {
 tasks.named("detekt").configure {
     reports {
         xml.required.set(true)
-        xml.outputLocation.set(file("build/reports/detekt.xml"))
+        xml.outputLocation.set(file("config/reports/detekt.xml"))
         html.required.set(true)
-        html.outputLocation.set(file("build/reports/detekt.html"))
+        html.outputLocation.set(file("config/reports/detekt.html"))
     }
 }
